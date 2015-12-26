@@ -7,6 +7,7 @@ var Notes = React.createClass({
     return (
       <div>
         <h3> Notes for {this.props.username} </h3>
+        <NotesList notes={this.props.notes} />
       </div>
     )
   }
